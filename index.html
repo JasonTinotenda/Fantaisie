@@ -1,0 +1,154 @@
+<html><head>
+    <title>Fantaisie Confectionery</title>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <style>    
+    body {font-family: "Times New Roman", Georgia, Serif;}
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Playfair Display";
+      letter-spacing: 5px;
+    }
+    #home{
+      background-image: url("images/wallpaper000.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
+    #home-content{
+      margin-top: 100px;
+    }
+    #home-content span{
+      font-size: 100px;
+      font-weight: bolder;
+    }
+    </style>
+    </head><body>
+    
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar  w3-theme w3-padding w3-card" style="letter-spacing:4px;">
+        <a href="#home" class="w3-bar-item w3-button">Fantaisie Confectionery</a>
+        <!-- Right-sided navbar links. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="#about" class="w3-bar-item w3-button">About</a>
+          <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+          <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Header -->
+    <div class="w3-theme-l5 " style="width: 100%;" id="home"> 
+      <div class="w3-center w3-margin-top w3-padding-large w3-opacity" >
+        <h1 class="w3-xxlarge w3-opacity w3-greyscale w3-black" id="home-content">Welcome to <br><span>Fantaisie</span><br> Bakery & Confectionery!</h1>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="w3-row w3-card-4 w3-padding-64 w3-content  w3-theme-l4" style="max-width:3000px" id="about">
+      <div class="w3-col m6 w3-padding-large w3-hide-small">
+       <img src="images/wallpaper001.jpg" class="w3-round w3-image w3-hover-greyscale" alt="Avatar" width="600" height="750">
+      </div>
+  
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">About</h1><br>
+        <h3 class="w3-large">We specialise in making delicious and fresh baked cakes,pastries and any other baked goods per your request.We are passionate about baking and sharing our love for it with our beloved customers.</h3>
+        <h2 class="w3-center">Aim</h2>
+        <h3 class="w3-large w3-text-grey w3-hide-medium">Our aim is to provide high quality and affordable baked goods. We want to satisfy the taste buds of our customers and make them happy with our services.
+          We also aim to support farmers and suppliers by using their products whenever possible.
+        </h3>
+      </div>
+    </div>
+
+    <!-- Menu Section -->
+    <div class="w3-row w3-padding-64  w3-theme-l5 w3-card-4" id="menu">
+      <div class="w3-col l6 w3-padding-large">
+        <h1 class="w3-center">Our Menu</h1><br>
+        <h4>Birthday Cakes with Fresh cream</h4>
+        <span class="w3-text-grey">
+          <p>Small $25</p>
+          <p>Medium $35</p>
+          <p>Large $45</p>
+          <p>Xlarge $50</p>
+        </span><br>
+      
+        <h4>Birthday Cakes with Plastic icing</h4>
+        <span class="w3-text-grey">
+          <p>Small $35</p>
+          <p>Medium $45</p>
+          <p>Large $50</p>
+          <p>Xlarge $55</p>
+        </span><br>
+       
+        <h4>Fruit Cakes</h4>
+        <span class="w3-text-grey">
+          <p>Small: 6 inch $50</p>
+          <p>Medium: 8 inch $70</p>
+          <p>Large: 10 inch $100</p>
+          <p>Xlarge: 12 inch $120</p>
+        </span><br>
+       
+        <h4>Wedding Cakes</h4>
+        <span class="w3-text-grey">
+          <p>75% Fruit:</p>
+          <p>3 tier $250</p>
+          <p>4 tier $300</p>
+        </span><br>  
+      </div>
+        
+      <div class="w3-col l6 w3-padding-large">
+        <img src="images/image001.jpg" class="w3-round w3-image w3-hover-greyscale" alt="Menu" style="width:100%">
+      </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="w3-container w3-theme-l4 w3-padding-64  w3-card-4" id="contact">
+      <h1>Contact</h1><br>
+      <p></p>
+      <p class="w3-text-black w3-large"><b>You can  send us a message here:</b></p>
+      <div class="w3-container">
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round-large w3-theme-d5">Details</button>
+        <div id="id01" class="w3-modal">
+          <div class="w3-modal-content w3-animate-zoom w3-card-4">
+            <header class="w3-container w3-theme"> 
+              <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">×</span>
+              <h2>Contact Information</h2>
+            </header>
+            <div class="w3-container w3-theme-l4">
+              <p>
+                Email: faahmutero@gmail.com<br>                        
+                Phone: +263-771823093<br>
+                Facebook-Handle: Farie Cakes
+              </p>                    
+            </div>
+            <footer class="w3-container w3-theme">
+              <p class="w3-padding-large">
+                <img alt="" src="images/linkedin.png" class="w3-padding">    
+                <img alt="" src="images/facebook.png"class="w3-padding">
+                <img alt="" src="images/instagram.png" class="w3-padding">
+                <img alt="" src="images/Twitter.png" class="w3-padding">
+              </p>
+            </footer>
+          </div>
+        </div>
+      </div>
+        
+      <p>You can place your here:</p>
+      <form action="mailto:faahmutero@gmail.com?subject=Comment"  target="_blank">
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required="" name="Name"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Theme" required="" name="Theme"></p>
+        <p><input class="w3-input w3-padding-16" type="number" placeholder="Age" required="" name="date" ></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required="" name="Message"></p>
+        <p><button class="w3-button w3-theme-d5 w3-section" type="submit">Place Order</button></p>
+      </form>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-center  w3-card-4 w3-theme w3-padding-32">
+      <p>Powered by <a href="https://jasontinotenda.github.io"  target="_blank" class="w3-hover-text-black">Dutchman Inc</a></p>
+    </footer>
+    
+    
+    
+    
+    </body>
+    </html>
